@@ -1,0 +1,31 @@
+baseurl = "https://www.ateamdailydemo.com/"
+languageCode = "en-us"
+title = "A Team Daily"
+theme = "hugo-phlat-theme"
+
+[permalinks]
+    post = "/:year/:month/:slug.html"
+    page = "/:slug.html"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[params]
+    keywords = ["default", "keywords", "if", "no", "front", "matter"]
+    description = "A description that will appear as a default if front matter does not exist"
+
+[[menu.header]]
+    name                = "Home"
+    weight              = 1
+    url                 = "/"
+
+[[menu.footer]]
+  name                = "Privacy Policy"
+  weight              = 1
+  url                 = "/privacy-policy.html"
+
+[[menu.footer]]
+    name                = "Terms and Conditions"
+    weight              = 1
+    url                 = "/terms-and-conditions.html"
