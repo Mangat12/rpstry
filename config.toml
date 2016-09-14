@@ -1,4 +1,4 @@
-baseurl = "https://Mangat12.github.com/rpstry"
+baseurl = "www.example.com"
 languageCode = "en-us"
 title = "A Team Daily"
 theme = "hugo-phlat-theme"
