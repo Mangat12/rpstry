@@ -1,4 +1,4 @@
-baseurl = "www.example.com"
+baseurl = "www.example.blog.com"
 languageCode = "en-us"
 title = "A Team Daily"
 theme = "hugo-phlat-theme"
